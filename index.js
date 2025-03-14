@@ -4,6 +4,7 @@ const currentUser = 'James Hamilton';
 
 // string concantination using + operator
 const aWelcomeMessage = 'Welcome to Flatbook' + currentUser + '!';
+
 // string interpolation using backticks inside ${} i.e. template literals
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
@@ -18,5 +19,6 @@ const exitedShortGreeting = `welcome, ${currentUser}!`;
 
 // slice() method extracts a section of a string and returns it as a new string, without modifying the original string.
 const shortGreeting2 = `Welcome, ${currentUser}!`;
+
 // will be the same as below when with .slice method
 const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
